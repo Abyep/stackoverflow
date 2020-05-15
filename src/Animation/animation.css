@@ -1,0 +1,29 @@
+.desktopViewImage {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  flex: 0.2;
+}
+
+.mobileViewImage {
+  display: none;
+  flex-direction: column;
+  width: 250px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  flex: 0.2;
+}
+
+@media screen and (max-width: 720px) {
+  .desktopViewImage {
+    display: none;
+  }
+
+  .mobileViewImage {
+    display: flex;
+  }
+}

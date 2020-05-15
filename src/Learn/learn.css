@@ -1,0 +1,18 @@
+.learnSection {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5%;
+  padding: 5%;
+}
+
+
+@media screen and (max-width: 720px) {
+    .learnSection {
+        flex-direction: column;
+     
+      }
+  }
+  

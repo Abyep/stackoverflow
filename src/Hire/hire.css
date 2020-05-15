@@ -1,0 +1,38 @@
+.hireSection {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.hireCard {
+  display: flex;
+  flex: 0.5;
+  flex-direction: column;
+  width: 400px;
+  margin-left: 20%;
+  align-self: flex-start;
+}
+
+@media screen and (max-width: 720px) {
+  .hireSection {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hireCard {
+    display: flex;
+    flex: 0.5;
+    flex-direction: column;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: flex-start;
+  }
+}

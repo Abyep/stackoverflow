@@ -1,0 +1,17 @@
+.jobCard {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 720px) {
+  .jobCard {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
