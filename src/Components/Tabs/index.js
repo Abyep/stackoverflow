@@ -36,7 +36,7 @@ class Tab extends Component {
               src={this.props.img}
             />
           </div>
-          <div style={{ display: "flex", flex: 0.7, textAlign: "left" }}>
+          <div style={{ display: "flex", flex: 0.7, textAlign: "left", fontSize:"0.9em" }}>
             {this.props.message}
           </div>
         </div>

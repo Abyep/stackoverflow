@@ -2,10 +2,11 @@
   display: flex;
   flex-direction: row;
   flex: 1;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   align-items: center;
-  margin-top: 5%;
-  padding: 5%;
+  margin-top: 2%;
+  padding-left: 10%;
+  padding-right: 15%;
 }
 
 

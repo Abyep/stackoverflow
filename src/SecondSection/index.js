@@ -60,9 +60,9 @@ class SecondSection extends Component {
   render() {
     return (
       <div>
-        <Section secondary>
+        <Section>
           <div align="center">
-            <div className="sectionHeading">{`For developers, by developers`}</div>
+            <div className="sectionHeadingSecond">{`For developers, by developers`}</div>
             <div
               style={{
                 width: "70px",
@@ -74,17 +74,20 @@ class SecondSection extends Component {
             ></div>
             <div
               style={{
-                fontSize: "1.1em",
+                fontSize: "1em",
                 maxWidth: "550px",
                 textAlign: "center",
                 margin: "2%",
+                opacity: "0.8",
               }}
             >
-              Stack Overflow is an open community for anyone that codes. We help
-              you get answers to your toughest coding questions, share knowledge
-              with your coworkers in private, and find your next dream job.
+              Stack Overflow is an{" "}
+              <span style={{ color: "orange" }}> open community </span>for
+              anyone that codes. We help you get answers to your toughest coding
+              questions, share knowledge with your coworkers in private, and
+              find your next dream job.
             </div>
-            <div className="section2">
+            <div align="center" className="section2">
               {secondSection.map((card, index) => (
                 <Card
                   number={card.id}
@@ -96,8 +99,8 @@ class SecondSection extends Component {
               ))}
             </div>
           </div>
-          <div align="center">
-            <div className="sectionHeading">{`For businesses, by developers`}</div>
+          <div style={{background : "#f7f6f9", paddingTop : "5%"}} align="center">
+            <div className="sectionHeadingSecond">{`For businesses, by developers`}</div>
             <div className="label"></div>
             <div
               className="secondHeading"

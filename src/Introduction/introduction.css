@@ -1,3 +1,5 @@
+body { font-family: 'Roboto', sans-serif; }
+
 .section1Button {
   display: flex;
   flex-direction: row;
@@ -6,15 +8,17 @@
 }
 
 .sectionHeading {
-  font-size: 3em;
+  font-size: 3.5em;
   font-weight: 600;
 }
 
 .subHeading {
   font-size: 1.3em;
-  max-width: 350px;
+  max-width: 450px;
   text-align: center;
-  margin: 2%;
+  margin: 1%;
+  font-weight: 350;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 720px) {

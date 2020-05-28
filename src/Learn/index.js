@@ -44,7 +44,7 @@ class Learn extends Component {
     return (
       <>
         <div
-          style={{ fontSize: "2.5em", fontWeight: "bold", maringBottom: "5%" }}
+          style={{ fontSize: "2.2em", fontWeight: "bold" }}
         >{`Learn and grow with Stack Overflow`}</div>
         <div className="learnSection">
           {learn.map((card, index) => (
@@ -59,18 +59,19 @@ class Learn extends Component {
                 maxHeight: "284px",
                 padding: "32px",
                 borderRadius: "10px",
-                justifyContent: "space-evenly",
               }}
             >
               <div
                 style={{ marginBottom: this.props.key == 1 ? "20vh" : "0px" }}
               >
-                <img src={card.img} />
+                <div align="left">
+                  <img  src={card.img} />
+                </div>
                 <div
                   style={{
                     textAlign: "left",
                     margin: "5%",
-                    fontSize: "1.3em",
+                    fontSize: "1.1em",
                     fontWeight: "500",
                     fontWeight: "bold",
                   }}
@@ -78,7 +79,7 @@ class Learn extends Component {
                   {card.title}
                 </div>
                 <div
-                  style={{ textAlign: "left", margin: "5%", fontSize: "1em" }}
+                  style={{ textAlign: "left", margin: "5%", fontSize: "0.9em", opacity:0.8 ,width : "300px"}}
                 >
                   {card.message}
                 </div>

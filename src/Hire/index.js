@@ -23,13 +23,13 @@ class Hire extends Component {
               <div
                 style={{
                   fontWeight: "bold",
-                  fontSize: "2em",
+                  fontSize: "1.8em",
                   marginBottom: "2%",
                 }}
               >
                 Hire your technical talent
               </div>
-              <div style={{ width: "400px", marginBottom: "2%" }}>
+              <div style={{ width: "500px", marginBottom: "2%", fontWeight:"0.9em",opacity:0.8 }}>
                 We help expand your technical hiring strategy to promote your
                 employer brand and highlight relevant open roles to our
                 community of 50 million monthly visitors.
@@ -54,13 +54,13 @@ class Hire extends Component {
               <div
                 style={{
                   fontWeight: "bold",
-                  fontSize: "2em",
+                  fontSize: "1.8em",
                   marginBottom: "2%",
                 }}
               >
                 Reach developers worldwide
               </div>
-              <div style={{ width: "400px", marginBottom: "2%" }}>
+              <div style={{  width: "500px", marginBottom: "2%", fontWeight:"0.9em",opacity:0.8 }}>
                 Use the world’s largest resource for people who code to help you
                 increase awareness and showcase your product or service across
                 Stack Overflow’s network of Q&A sites.

@@ -59,7 +59,7 @@ class Package extends Component {
         <div style={{ color: "#fff" }} align="center">
           <div
             style={{
-              fontSize: "2.5em",
+              fontSize: "2.2em",
               fontWeight: "bold",
               lineHeight: "40px",
               maxWidth: "500px",
@@ -70,8 +70,8 @@ class Package extends Component {
           >{`Unlock siloed knowledge with Stack Overflow for Teams`}</div>
           <div
             style={{
-              fontSize: "1.3em",
-              maxWidth: "350px",
+              fontSize: "1.1em",
+              maxWidth: "450px",
               textAlign: "center",
               margin: "2%",
             }}
@@ -110,6 +110,7 @@ class Package extends Component {
                     fontSize: "1.1em",
                     fontWeight: "normal",
                     color: item.id == 2 ? "#fff" : "inherit",
+                    opacity:0.8
                   }}
                 >
                   {item.message}
@@ -117,18 +118,18 @@ class Package extends Component {
               </div>
               <div align="left" style={{ padding: "32px" }}>
                 <div style={{ lineHeight: "20px", verticalAlign: "middle" }}>
-                  <span style={{ fontSize: "1.8rem", fontWeight: "bold" }}>
+                  <span style={{ fontSize: "1.8rem", fontWeight: "bold", opacity:0.8 }}>
                     {item.rate}
                   </span>
-                  <span> {item.time}</span>
+                  <span style={{opacity:0.8}}> {item.time}</span>
                 </div>
                 <div>
                   {item.offers.map((offer) => (
                     <div style={{ lineHeight: "20px", paddingTop: "2%" }}>
-                      <span style={{ color: "#f28033", fontSize: "1.5rem" }}>
+                      <span style={{ color: "#f28033", fontSize: "1.5rem" ,opacity:0.8 }}>
                         &#x2713;
                       </span>
-                      {offer}
+                      <span style={{opacity:0.8}}>{offer}</span>
                     </div>
                   ))}
                 </div>

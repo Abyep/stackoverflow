@@ -9,7 +9,7 @@
   padding: 32px;
   border-radius: 10px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.15);
-  justify-content: space-evenly;
+  /* justify-content: space-around; */
   align-items: center;
 }
 .cardMobile{
