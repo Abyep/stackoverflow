@@ -8,7 +8,6 @@ class Tab extends Component {
     this.state = {};
   }
 
-
   render() {
     return (
       <>
@@ -27,7 +26,10 @@ class Tab extends Component {
             justifyContent: "space-evenly",
             alignItems: "center",
             background: "#fff",
-            marginBottom:"5%"
+            marginBottom: "5%",
+            marginLeft: "2%",
+            paddingTop: this.props.section == "secondSection" ? "3%" : "1%",
+            paddingBottom: this.props.section == "secondSection" ? "3%" : "1%",
           }}
         >
           <div style={{ display: "flex", flex: 0.3 }}>
@@ -36,7 +38,15 @@ class Tab extends Component {
               src={this.props.img}
             />
           </div>
-          <div style={{ display: "flex", flex: 0.7, textAlign: "left", fontSize:"0.9em" }}>
+          <div
+            style={{
+              display: "flex",
+              flex: 0.7,
+              textAlign: "left",
+              fontSize:
+                this.props.section == "secondSection" ? "1em" : "0.9em",
+            }}
+          >
             {this.props.message}
           </div>
         </div>

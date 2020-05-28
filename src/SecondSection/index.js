@@ -118,7 +118,7 @@ class SecondSection extends Component {
             </div>
             <div className="section2">
               {secondSectionTab.map((card, index) => (
-                <Tab number={card.id} img={card.img} message={card.message} />
+                <Tab section={"secondSection"} number={card.id} img={card.img} message={card.message} />
               ))}
             </div>
           </div>
