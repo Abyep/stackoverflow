@@ -4,18 +4,21 @@ body {
 }
 
 .menu {
-  width: 35px;
-  height: 5px;
-  background-color: black;
-  margin: 6px 0;
+  width: 20px;
+  height: 2px;
+  background-color:   grey;
+  margin: 3px 0;
 }
 
 .topnav {
   overflow: hidden;
-  background-color: #fff;
+  background-color: #fafafb;
   position: sticky;
   color: #000;
   top: 0;
+  box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.15);
+  z-index: 99999999999;
+
 }
 
 .topnav a {
@@ -44,7 +47,7 @@ body {
 }
 
 .inputForm {
-  height: 40px;
+  height: 30px;
   max-width: 600px;
   width: 100%;
   width: 550px;

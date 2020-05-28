@@ -39,19 +39,19 @@ class Header extends Component {
               style={{ height: "40px" }}
               src={require("../assets/stackoverflow.png")}
             />
-            <div style={{ display: "inline-block" }}>
-              <a style={{ background: "#f48024" }} href="#news">
+            <div align="center" style={{ display: "inline-block" ,height : "30px", }}>
+              <a style={{ background: "#f48024", borderRadius:"25px",maxHeight:"5px",textAlign:"center", lineHeight:"5px", verticalAlign:"middle", color :"#fff", fontSize:"0.8em"}} href="#news">
                 Products
               </a>
-              <a href="#contact">Customers</a>
-              <a href="#about">Use Cases</a>
+              <a  style={{ background: "#fff", borderRadius:"25px",maxHeight:"5px",textAlign:"center", lineHeight:"5px", verticalAlign:"middle", color :"grey", fontSize:"0.8em"}} href="#contact">Customers</a>
+              <a  style={{ background: "#fff", borderRadius:"25px",maxHeight:"5px",textAlign:"center", lineHeight:"5px", verticalAlign:"middle", color :"grey", fontSize:"0.8em"}} href="#about">Use Cases</a>
             </div>{" "}
             <div style={{ display: "inline-block" }}>
               <form action="/action_page.php">
                 <input
                   className="inputForm"
                   type="text"
-                  placeholder="Search.."
+                  placeholder="  Search.."
                   name="search"
                 />
               </form>
@@ -64,18 +64,7 @@ class Header extends Component {
                 Signup
               </Button>
             </div>{" "}
-            {/* <a href="javascript:void(0);" class="icon" onclick={this.navFunction}>
-            <i class="fa fa-bars"></i>
-          </a>
-          <a href="#home" class="active">
-            Home
-          </a>
-          <a href="#news">News</a>
-          <a href="#contact">Contact</a>
-          <a href="#about">About</a>
-          <a href="javascript:void(0);" class="icon" onclick={this.navFunction}>
-            <i class="fa fa-bars"></i>
-          </a> */}
+     
           </div>
         </div>
       </>

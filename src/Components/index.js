@@ -42,7 +42,7 @@ export const Button = styled.button`
 
   color: ${(props) => (props.login ? "#39739d" : "#fff")};
   min-width: ${(props) => (props.login ? "80px" : props.signup? "80px" : "#fff")};
-
+  min-width: ${(props) => (props.login ? "30px" : props.signup? "30px" : "inherit")};
   border: ${(props) =>
     props.primary
       ? "0.5px solid #2b2d6e"
